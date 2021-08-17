@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 		.github\workflows\azure-static-web-apps-orange-desert-0cbee5c1e.yml = .github\workflows\azure-static-web-apps-orange-desert-0cbee5c1e.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriscoInc.HrPortal.Api", "FriscoInc.HrPortal.Api\FriscoInc.HrPortal.Api.csproj", "{E9AECE68-62F9-44EA-8FFB-40A034DDCFB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{11AF7225-23B8-4DFE-9A76-D903BA67D2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11AF7225-23B8-4DFE-9A76-D903BA67D2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11AF7225-23B8-4DFE-9A76-D903BA67D2A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9AECE68-62F9-44EA-8FFB-40A034DDCFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AECE68-62F9-44EA-8FFB-40A034DDCFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AECE68-62F9-44EA-8FFB-40A034DDCFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AECE68-62F9-44EA-8FFB-40A034DDCFB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
