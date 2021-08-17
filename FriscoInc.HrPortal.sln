@@ -5,6 +5,13 @@ VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriscoInc.HrPortal.WebUi", "FriscoInc.HrPortal.WebUi\FriscoInc.HrPortal.WebUi.csproj", "{11AF7225-23B8-4DFE-9A76-D903BA67D2A3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6926EC7B-AC05-48AF-85E9-6AAF37BF1E6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{5545561B-75A2-45AF-AAE5-99CE371950D9}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\azure-static-web-apps-orange-desert-0cbee5c1e.yml = .github\workflows\azure-static-web-apps-orange-desert-0cbee5c1e.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5545561B-75A2-45AF-AAE5-99CE371950D9} = {6926EC7B-AC05-48AF-85E9-6AAF37BF1E6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C9E5B71-A334-431F-9FCE-1342626854E1}
